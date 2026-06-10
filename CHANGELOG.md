@@ -1,4 +1,32 @@
-# 更新日志 / Changelog
+﻿# 更新日志 / Changelog
+
+## v1.1.1
+
+### 中文
+
+本版本优化下载体验和中文日志显示，适合所有正在使用中文界面或需要下载较大 MSIX/AppX 安装包的用户更新。
+
+更新内容：
+
+- 优化“下载最新包”的下载方式，优先使用系统自带下载能力处理大文件。
+- 改进下载失败后的重试和回退处理。
+- 修复中文模式下日志输出乱码的问题。
+- 修复日志中可能出现 PowerShell 序列化内容的问题。
+- 改进中文路径和中文参数下的启动兼容性。
+- 更新中英文 README 和安装使用说明。
+
+### English
+
+This release improves package download behavior and Chinese log output. It is recommended for users who use the Chinese interface or download large MSIX/AppX packages.
+
+Changes:
+
+- Improved Download latest package behavior by preferring the system download capability for large files.
+- Improved retry and fallback handling after download failures.
+- Fixed garbled Chinese log output in Chinese mode.
+- Fixed possible PowerShell serialized output in logs.
+- Improved startup compatibility for Chinese paths and Chinese parameters.
+- Updated bilingual README and installation guide.
 
 ## v1.1.0
 
@@ -9,7 +37,7 @@
 更新内容：
 
 - 新增简体中文和英文界面切换。
-- 管理界面、关于页面、日志信息和软件自有报错信息会跟随所选语言显示。
+- 管理界面、关于页面、日志信息和软件自身错误信息会跟随所选语言显示。
 - 关于页面新增“检查更新”功能。
 - 支持查看当前版本与 GitHub 最新版本对比。
 - 支持查看版本更新日志。
