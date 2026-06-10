@@ -1,4 +1,4 @@
-# 安装使用说明 / Installation and Usage Guide
+﻿# 安装使用说明 / Installation and Usage Guide
 
 ## 中文
 
@@ -20,7 +20,7 @@ D:\Tools\MSStoreMsixManager\
 
 ### 三、选择界面语言
 
-主界面支持简体中文和英文。打开软件后，可在“语言”下拉框中切换。切换后，管理界面、关于页面、日志信息和软件自有报错信息会同步切换到所选语言。
+主界面支持简体中文和英文。打开软件后，可在“语言”下拉框中切换。切换后，管理界面、关于页面、日志信息和软件自身错误信息会同步切换到所选语言。
 
 ### 四、填写应用 ID 或链接
 
@@ -54,7 +54,7 @@ https://apps.microsoft.com/detail/9plm9xgg6vks
 
 ### 七、查询版本
 
-点击查询后，软件会显示：
+点击“查询版本”后，软件会显示：
 
 - 当前系统已安装版本。
 - 云端可下载的最新版本。
@@ -64,7 +64,7 @@ https://apps.microsoft.com/detail/9plm9xgg6vks
 
 ### 八、下载安装包
 
-确认应用信息和架构无误后，点击下载按钮。
+确认应用信息和架构无误后，点击“下载最新包”。
 
 下载完成后，安装包会显示在本地已下载安装包列表中。
 
@@ -80,7 +80,7 @@ https://apps.microsoft.com/detail/9plm9xgg6vks
 
 这个功能适合需要回退到旧版本，或手动安装指定版本的场景。
 
-### 十一、检查本软件更新
+### 十一、检查本工具更新
 
 进入“关于”页面，点击“检查更新”。
 
@@ -99,16 +99,17 @@ https://apps.microsoft.com/detail/9plm9xgg6vks
 - 应用不是免费公开应用。
 - 应用存在区域限制。
 - 网络无法访问相关下载服务。
-- Microsoft Store 页面结构或服务返回结果发生变化。
+- Microsoft Store 服务返回结果发生变化。
 
-#### 下载失败
+#### 下载失败或下载很慢
 
 请检查：
 
 - 当前网络是否正常。
 - 下载目录是否有写入权限。
 - 磁盘空间是否充足。
-- 杀毒软件是否拦截下载。
+- 安全软件是否拦截下载。
+- 代理或网络线路是否能正常访问 Microsoft 下载服务。
 
 #### 安装失败
 
@@ -188,7 +189,7 @@ If the local version is older than the cloud version, you can download the lates
 
 ### 8. Download Package
 
-After confirming the app information and architecture, click Download.
+After confirming the app information and architecture, click Download latest package.
 
 When the download completes, the package appears in the local downloaded package list.
 
@@ -223,16 +224,17 @@ Possible reasons:
 - The app is not a free public app.
 - The app is region-restricted.
 - The network cannot access the required download services.
-- Microsoft Store page structure or service response has changed.
+- Microsoft Store service response has changed.
 
-#### Download Failed
+#### Download Failed Or Slow
 
 Check:
 
 - Network connection.
 - Write permission for the download folder.
 - Available disk space.
-- Antivirus or security software blocking the download.
+- Security software blocking the download.
+- Proxy or network route access to Microsoft download services.
 
 #### Installation Failed
 
