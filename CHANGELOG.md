@@ -1,14 +1,38 @@
-﻿# 更新日志 / Changelog
+# 更新日志 / Changelog
+
+## v1.1.2
+
+### 中文
+
+本版本继续优化“下载最新包”的稳定性，适合经常下载较大 MSIX/AppX 安装包的用户更新。
+
+更新内容：
+
+- 修复部分网络环境下下载连接被重置后，备用下载方式没有继续执行的问题。
+- 下载失败时会更稳定地进入重试和备用下载流程。
+- 下载中断后会清理未完成的临时文件，减少下次下载受到残留文件影响的情况。
+- 保留中文模式下的日志输出优化，继续减少乱码和无关 PowerShell 输出。
+
+### English
+
+This release further improves Download latest package stability, especially for users who often download large MSIX/AppX packages.
+
+Changes:
+
+- Fixed an issue where the fallback download method might not continue after a reset connection in some network environments.
+- Improved retry and fallback behavior after download failures.
+- Incomplete temporary files are cleaned after interrupted downloads to reduce impact on the next attempt.
+- Keeps the Chinese log output improvements to reduce garbled text and unrelated PowerShell output.
 
 ## v1.1.1
 
 ### 中文
 
-本版本优化下载体验和中文日志显示，适合所有正在使用中文界面或需要下载较大 MSIX/AppX 安装包的用户更新。
+本版本优化下载体验和中文日志显示，建议使用中文界面或经常下载较大 MSIX/AppX 安装包的用户更新。
 
 更新内容：
 
-- 优化“下载最新包”的下载方式，优先使用系统自带下载能力处理大文件。
+- 优化“下载最新包”的下载方式，提升大文件下载稳定性。
 - 改进下载失败后的重试和回退处理。
 - 修复中文模式下日志输出乱码的问题。
 - 修复日志中可能出现 PowerShell 序列化内容的问题。
@@ -17,11 +41,11 @@
 
 ### English
 
-This release improves package download behavior and Chinese log output. It is recommended for users who use the Chinese interface or download large MSIX/AppX packages.
+This release improves package download behavior and Chinese log output. Updating is recommended for users who use the Chinese interface or often download large MSIX/AppX packages.
 
 Changes:
 
-- Improved Download latest package behavior by preferring the system download capability for large files.
+- Improved Download latest package behavior for better large-file download stability.
 - Improved retry and fallback handling after download failures.
 - Fixed garbled Chinese log output in Chinese mode.
 - Fixed possible PowerShell serialized output in logs.
@@ -37,7 +61,7 @@ Changes:
 更新内容：
 
 - 新增简体中文和英文界面切换。
-- 管理界面、关于页面、日志信息和软件自身错误信息会跟随所选语言显示。
+- 管理界面、关于页面、日志信息和软件自有错误信息会跟随所选语言显示。
 - 关于页面新增“检查更新”功能。
 - 支持查看当前版本与 GitHub 最新版本对比。
 - 支持查看版本更新日志。
