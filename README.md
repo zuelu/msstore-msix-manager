@@ -19,6 +19,7 @@
 - 支持简体中文和英文界面切换。
 - 在“关于”页面检查本软件更新、查看更新说明、下载并手动安装新版。
 - 下载失败时自动重试，并在必要时切换备用下载方式，提高大文件下载稳定性。
+- 安装时会区分真正依赖包和同一应用的历史主包，保留历史版本的同时避免重复包安装错误。
 
 ### 下载
 
@@ -89,6 +90,7 @@ You can enter a Microsoft Store app ID or app detail link to query, download, an
 - Switch between Simplified Chinese and English.
 - Check software updates from the About page, view release notes, download updates, and install them manually.
 - Retry failed downloads automatically and use a fallback download method when needed for better large-file stability.
+- Distinguish real dependency packages from historical main packages of the same app during installation, keeping version history while avoiding duplicate package deployment errors.
 
 ### Download
 

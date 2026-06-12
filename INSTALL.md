@@ -86,6 +86,8 @@ https://apps.microsoft.com/detail/9plm9xgg6vks
 
 这个功能适合需要回退到旧版本，或手动安装指定版本的场景。
 
+新版会在安装时自动区分同一应用的历史主包和真正依赖包，因此可以继续把多个历史版本保留在同一个下载目录中。
+
 ### 11. 检查本软件更新
 
 进入“关于”页面，点击“检查更新”。
@@ -229,6 +231,8 @@ Before installation, the app tries to stop residual processes for the target app
 Right-click any package in the local downloaded package list and choose to install it.
 
 This is useful when you need to roll back to an older version or install a specific version manually.
+
+Newer versions distinguish historical main packages of the same app from real dependency packages during installation, so multiple historical versions can remain in the same download folder.
 
 ### 11. Check Updates For This Tool
 

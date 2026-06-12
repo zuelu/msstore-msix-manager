@@ -1,5 +1,29 @@
 # 更新日志 / Changelog
 
+## v1.1.3
+
+### 中文
+
+本版本修复安装或更新应用时的依赖包识别问题，建议已经下载过多个历史版本安装包的用户更新。
+
+更新内容：
+
+- 修复本地目录中存在同一应用历史安装包时，旧版主包可能被误当作依赖包传给 Windows 安装流程的问题。
+- 解决因此导致的安装失败提示：同一个程序包被指定多次。
+- 错误信息过长时，弹窗会保留最后的关键错误行，方便查看真实安装错误。
+- 保留历史安装包和右键安装历史版本功能。
+
+### English
+
+This release fixes dependency detection during app installation or update. Updating is recommended for users who keep multiple historical package versions in the same local folder.
+
+Changes:
+
+- Fixed an issue where an older main package of the same app could be treated as a dependency when historical packages exist in the local folder.
+- Resolved installation failures caused by passing the same package identity more than once to Windows deployment.
+- Long error dialogs now keep the final key error lines so the real installation error remains visible.
+- Historical packages and right-click installation of older versions remain supported.
+
 ## v1.1.2
 
 ### 中文
