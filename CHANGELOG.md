@@ -1,5 +1,29 @@
 # 更新日志 / Changelog
 
+## v1.1.5
+
+### 中文
+
+本版本改进软件自身更新下载体验，下载期间可以直接查看进度和速度。
+
+更新内容：
+
+- 新增软件更新下载进度条。
+- 显示已下载大小、文件总大小和实时下载速度。
+- 服务器未提供总大小时，使用不确定进度状态并继续显示速度。
+- 下载中断时清理临时文件，成功后再替换正式更新文件，降低损坏文件风险。
+
+### English
+
+This release improves the in-app software update download experience with visible progress and transfer speed.
+
+Changes:
+
+- Added a progress bar for software update downloads.
+- Shows downloaded size, total file size, and current transfer speed.
+- Uses an indeterminate progress state when the server does not provide a total size while continuing to show speed.
+- Cleans up partial files after interruption and replaces the final update file only after a successful download.
+
 ## v1.1.4
 
 ### 中文

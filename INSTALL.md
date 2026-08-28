@@ -96,6 +96,8 @@ https://apps.microsoft.com/detail/9plm9xgg6vks
 
 软件会显示当前版本、GitHub 最新版本、更新文件和更新日志。需要更新时，可以点击“下载更新”，下载完成后点击“安装更新”。
 
+下载更新期间会显示进度、已下载大小和实时速度；如果服务器未提供文件总大小，进度条会显示持续运行状态，但下载速度仍会正常显示。
+
 ### 12. 常见问题
 
 #### 无法识别应用 ID
@@ -243,6 +245,8 @@ Installing a local historical package does not require another Microsoft Store q
 Open the About page and click Check for updates.
 
 The app shows the current version, latest GitHub version, update file, and release notes. When an update is available, click Download update, then click Install update after the download completes.
+
+While the update is downloading, the app shows progress, downloaded size, and current transfer speed. If the server does not provide the total file size, the progress bar remains indeterminate while the speed is still displayed.
 
 ### 12. FAQ
 

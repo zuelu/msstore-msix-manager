@@ -17,6 +17,7 @@
 - 安装或更新前尝试停止目标应用残留进程。
 - 在本地历史安装包列表中右键安装任意历史版本。
 - 安装本地历史版本时无需访问 Microsoft Store，适合离线回退或商店服务暂时不可用的环境。
+- 下载软件更新时显示实时进度、已下载大小和下载速度。
 - 支持简体中文和英文界面切换。
 - 在“关于”页面检查本软件更新、查看更新说明、下载并手动安装新版。
 - 下载失败时自动重试，并在必要时切换备用下载方式，提高大文件下载稳定性。
@@ -24,7 +25,7 @@
 
 ### 下载
 
-当前稳定版本：`v1.1.4`
+当前稳定版本：`v1.1.5`
 
 请前往 [Releases 页面](https://github.com/zuelu/msstore-msix-manager/releases/latest) 下载：
 
@@ -91,6 +92,7 @@ You can enter a Microsoft Store app ID or app detail link to query, download, an
 - Try to stop residual target app processes before installing or updating.
 - Right-click local package history to install any previously downloaded version.
 - Install a local historical version without contacting Microsoft Store, which is useful for offline rollback or temporary Store outages.
+- Show real-time progress, downloaded size, and transfer speed while downloading software updates.
 - Switch between Simplified Chinese and English.
 - Check software updates from the About page, view release notes, download updates, and install them manually.
 - Retry failed downloads automatically and use a fallback download method when needed for better large-file stability.
@@ -98,7 +100,7 @@ You can enter a Microsoft Store app ID or app detail link to query, download, an
 
 ### Download
 
-Current stable version: `v1.1.4`
+Current stable version: `v1.1.5`
 
 Download from the [Releases page](https://github.com/zuelu/msstore-msix-manager/releases/latest):
 
