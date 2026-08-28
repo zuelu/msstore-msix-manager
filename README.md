@@ -16,12 +16,15 @@
 - 自动处理常见依赖包。
 - 安装或更新前尝试停止目标应用残留进程。
 - 在本地历史安装包列表中右键安装任意历史版本。
+- 安装本地历史版本时无需访问 Microsoft Store，适合离线回退或商店服务暂时不可用的环境。
 - 支持简体中文和英文界面切换。
 - 在“关于”页面检查本软件更新、查看更新说明、下载并手动安装新版。
 - 下载失败时自动重试，并在必要时切换备用下载方式，提高大文件下载稳定性。
 - 安装时会区分真正依赖包和同一应用的历史主包，保留历史版本的同时避免重复包安装错误。
 
 ### 下载
+
+当前稳定版本：`v1.1.4`
 
 请前往 [Releases 页面](https://github.com/zuelu/msstore-msix-manager/releases/latest) 下载：
 
@@ -87,12 +90,15 @@ You can enter a Microsoft Store app ID or app detail link to query, download, an
 - Handle common dependency packages automatically.
 - Try to stop residual target app processes before installing or updating.
 - Right-click local package history to install any previously downloaded version.
+- Install a local historical version without contacting Microsoft Store, which is useful for offline rollback or temporary Store outages.
 - Switch between Simplified Chinese and English.
 - Check software updates from the About page, view release notes, download updates, and install them manually.
 - Retry failed downloads automatically and use a fallback download method when needed for better large-file stability.
 - Distinguish real dependency packages from historical main packages of the same app during installation, keeping version history while avoiding duplicate package deployment errors.
 
 ### Download
+
+Current stable version: `v1.1.4`
 
 Download from the [Releases page](https://github.com/zuelu/msstore-msix-manager/releases/latest):
 

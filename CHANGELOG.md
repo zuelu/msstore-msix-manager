@@ -1,5 +1,29 @@
 # 更新日志 / Changelog
 
+## v1.1.4
+
+### 中文
+
+本版本修复本地历史安装包在网络不可用时无法安装的问题，建议需要离线回退或手动安装历史版本的用户更新。
+
+更新内容：
+
+- 安装本地历史包时不再强制访问 Microsoft Store。
+- 先校验本地安装包并读取 manifest，再从同目录查找可用依赖。
+- 本地安装成功后，界面不再因为后续远程查询失败而显示误导性的失败提示。
+- 保留普通在线查询、下载、更新和历史版本管理功能。
+
+### English
+
+This release fixes local historical-package installation when the network or Microsoft Store services are unavailable. Updating is recommended for users who need offline rollback or manual installation of older versions.
+
+Changes:
+
+- Local historical-package installation no longer requires a Microsoft Store query.
+- The app validates the local package and reads its manifest before looking for valid dependencies in the same folder.
+- After a successful local installation, the UI no longer reports a misleading failure caused by a follow-up remote status query.
+- Regular online querying, downloading, updating, and package history management remain supported.
+
 ## v1.1.3
 
 ### 中文
