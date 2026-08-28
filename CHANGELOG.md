@@ -1,5 +1,27 @@
 # 更新日志 / Changelog
 
+## v1.1.6
+
+### 中文
+
+本版本修复部分 Windows 环境启动 EXE 时找不到 QtCore DLL 的问题，并增强打包兼容性。
+
+更新内容：
+
+- 显式收集 PySide6、shiboken6 及 QtCore、QtGui、QtWidgets 的原生运行库。
+- 补充 Windows 平台插件和常见 MSVC/UCRT 运行库，降低启动阶段 DLL 加载失败概率。
+- 保留单文件 EXE 形式，下载后可直接运行。
+
+### English
+
+This release fixes QtCore DLL loading failures that could occur when starting the EXE on some Windows environments and improves packaging compatibility.
+
+Changes:
+
+- Explicitly collects the native runtime libraries for PySide6, shiboken6, QtCore, QtGui, and QtWidgets.
+- Includes the Windows platform plugin and common MSVC/UCRT runtime libraries to reduce startup DLL loading failures.
+- Keeps the single-file EXE format so the downloaded file can be run directly.
+
 ## v1.1.5
 
 ### 中文
