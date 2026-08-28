@@ -25,7 +25,7 @@
 
 ### 下载
 
-当前稳定版本：`v1.1.6`
+当前稳定版本：`v1.1.7`
 
 请前往 [Releases 页面](https://github.com/zuelu/msstore-msix-manager/releases/latest) 下载：
 
@@ -100,7 +100,7 @@ You can enter a Microsoft Store app ID or app detail link to query, download, an
 
 ### Download
 
-Current stable version: `v1.1.6`
+Current stable version: `v1.1.7`
 
 Download from the [Releases page](https://github.com/zuelu/msstore-msix-manager/releases/latest):
 

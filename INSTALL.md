@@ -152,7 +152,7 @@ https://apps.microsoft.com/detail/9plm9xgg6vks
 
 #### 启动时提示 QtCore DLL 加载失败
 
-请从最新 Releases 页面重新下载 `MSStoreMsixManager.exe`，不要继续使用旧版文件或失效快捷方式。确认文件下载完整，并检查杀毒软件是否拦截了程序临时解压的运行库。若仍无法启动，请将程序复制到有写入权限的本地目录后重试。
+请从最新 Releases 页面重新下载 `MSStoreMsixManager.exe`，不要继续使用旧版文件或失效快捷方式。确认文件下载完整，并检查杀毒软件是否拦截了程序临时解压的运行库。若仍无法启动，请将程序复制到有写入权限的本地目录后重试。v1.1.7 已修复可能冲突的 ICU 运行库问题。
 
 ## English
 
@@ -306,4 +306,4 @@ This is one of the main use cases for this tool. As long as the system supports 
 
 #### QtCore DLL Loading Error At Startup
 
-Download `MSStoreMsixManager.exe` again from the latest Releases page instead of using an older file or a broken shortcut. Make sure the download is complete and check whether antivirus software blocked the runtime files extracted temporarily by the program. If it still cannot start, copy the program to a local folder where the current user has write permission and try again.
+Download `MSStoreMsixManager.exe` again from the latest Releases page instead of using an older file or a broken shortcut. Make sure the download is complete and check whether antivirus software blocked the runtime files extracted temporarily by the program. If it still cannot start, copy the program to a local folder where the current user has write permission and try again. Version 1.1.7 also fixes a potentially conflicting ICU runtime.

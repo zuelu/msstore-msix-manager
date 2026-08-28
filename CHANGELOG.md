@@ -1,5 +1,27 @@
 # 更新日志 / Changelog
 
+## v1.1.7
+
+### 中文
+
+本版本修复部分 Windows 环境启动 EXE 时 QtCore 仍然加载失败的问题。
+
+更新内容：
+
+- 移除会覆盖 Windows 系统 ICU 的冲突运行库，避免 QtCore 找不到所需导出函数。
+- 保留 QtCore、QtGui、QtWidgets、shiboken6 及 Windows 平台插件的必要依赖。
+- 增加真实 GUI 子进程启动验证，确保不是只验证引导进程。
+
+### English
+
+This release fixes another QtCore startup failure that could still occur on some Windows environments.
+
+Changes:
+
+- Removes conflicting ICU runtimes that could override the Windows ICU and hide required exports from QtCore.
+- Keeps the required dependencies for QtCore, QtGui, QtWidgets, shiboken6, and the Windows platform plugin.
+- Adds real GUI child-process startup validation instead of checking only the bootstrap process.
+
 ## v1.1.6
 
 ### 中文
