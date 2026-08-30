@@ -64,6 +64,8 @@ https://apps.microsoft.com/detail/9plm9xgg6vks
 - 云端可下载的最新版本。
 - 本地目录中已经下载的安装包版本。
 
+查询过程不会打开单独的 PowerShell 窗口，当前执行阶段会实时显示在主界面底部日志中。
+
 如果本地版本低于云端版本，可以继续下载最新安装包。
 
 ### 8. 下载安装包
@@ -71,6 +73,8 @@ https://apps.microsoft.com/detail/9plm9xgg6vks
 确认应用信息和架构无误后，点击下载按钮。
 
 下载过程中，软件会优先使用较适合大文件的下载方式；如果连接被重置或下载失败，会自动重试，并在必要时切换备用下载方式。
+
+下载和安装同样不会打开 PowerShell 窗口，下载尝试、保存位置、安装阶段和最终结果会逐行显示在实时日志中。
 
 下载完成后，安装包会显示在本地已下载安装包列表中。
 
@@ -218,6 +222,8 @@ After clicking Check versions, the app shows:
 - The latest version available from the cloud.
 - The latest downloaded package version in the local folder.
 
+The query does not open a separate PowerShell window. Its current execution stage appears in the log at the bottom of the main window in real time.
+
 If the local version is older than the cloud version, you can download the latest package.
 
 ### 8. Download Package
@@ -225,6 +231,8 @@ If the local version is older than the cloud version, you can download the lates
 After confirming the app information and architecture, click Download.
 
 The app uses a download method suitable for large files first. If the connection is reset or the download fails, it retries automatically and switches to a fallback download method when needed.
+
+Downloads and installations also run without a PowerShell window. Download attempts, save locations, installation stages, and final results are streamed line by line to the in-app log.
 
 When the download completes, the package appears in the local downloaded package list.
 

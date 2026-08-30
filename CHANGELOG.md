@@ -1,5 +1,29 @@
 # 更新日志 / Changelog
 
+## v1.1.8
+
+### 中文
+
+本版本将查询、下载和安装过程统一收进软件主界面的实时日志，不再弹出 PowerShell 窗口。
+
+更新内容：
+
+- 查询、下载和安装时隐藏后台 PowerShell 子进程窗口。
+- 下载尝试、保存位置、安装阶段和执行结果会逐行显示在主界面日志中。
+- 查询阶段日志与状态数据分开处理，实时显示进度的同时保持版本信息正常刷新。
+- 软件自身更新时使用的后台替换程序同样不再弹出命令窗口。
+
+### English
+
+This release keeps query, download, and installation activity inside the app's real-time log instead of opening a PowerShell window.
+
+Changes:
+
+- Hides the background PowerShell child window during queries, downloads, and installations.
+- Streams download attempts, save locations, installation stages, and results line by line to the main-window log.
+- Separates query-stage log messages from status data so progress remains visible while version cards continue to refresh correctly.
+- Also hides the background replacement command used when updating the utility itself.
+
 ## v1.1.7
 
 ### 中文
